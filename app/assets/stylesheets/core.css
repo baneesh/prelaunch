@@ -46,7 +46,7 @@ html.home{
 #home .hero{
 	width: 100%;
 	height: 446px;
-	background: url(/assets/images/home/1701.jpg) center center no-repeat;
+	background: url(/assets/home/1701.jpg) center center no-repeat;
 	background-size: 1600px 446px;
 	overflow: hidden;
 	position: relative;
@@ -631,7 +631,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: url(/assets/home/images/1701@2x.jpg) center center no-repeat;
+		background: url(/assets/home/1701@2x.jpeg) center center no-repeat;
 		background-size: 1600px 446px;
 	}
 
