@@ -47,7 +47,7 @@ html.home{
 	width: 100%;
 	height: 446px;
 	background: url(/assets/home/1701.jpeg) center center no-repeat;
-	background-size: 1600px 446px;
+	background-size: cover;
 	overflow: hidden;
 	position: relative;
 	letter-spacing: .09em;
@@ -57,7 +57,7 @@ html.home{
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #074E6F;
+	color: #ED753F;
 	text-transform: uppercase;
 	margin: 85px 0 0 136px;
 	position: relative;
@@ -67,7 +67,7 @@ html.home{
 
 #home .hero .small{
 	font-weight: bold;
-	color: #955F5D;
+	color: #5C5C5C;
 	font-size: 18px;
 	margin: 10px 0 0 115px;
 	line-height: 30px;
@@ -75,7 +75,7 @@ html.home{
 	z-index: 2;
 	text-transform: uppercase;
 	text-align: center;
-	width: 375px;
+	width: 378px;
 	letter-spacing: 1px;
 }
 
@@ -96,7 +96,7 @@ html.home{
 #home .form-wrap .byline{
 	font-size: 15px;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #ED753F;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -107,7 +107,7 @@ html.home{
 	float: left;
 	font-size: 13px;
 	padding: 8px 0 8px 10px;
-	border: 1px solid #074E6F;
+	border: 1px solid #ED753F;
 	width: 256px;
 	outline: none;
 	letter-spacing: 1px;
@@ -115,7 +115,7 @@ html.home{
 
 #home .form-wrap .submit{
 	width: 143px;
-	background: #074E6F;
+	background: #ED753F;
 	float: left;
 	height: 37px;
 	line-height: 37px;
@@ -632,7 +632,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
 		background: url(/assets/home/1701@2x.jpeg) center center no-repeat;
-		background-size: 1600px 446px;
+		background-size: cover;
 	}
 
 	#home .form-wrap .key{
