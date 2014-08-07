@@ -46,8 +46,8 @@ html.home{
 #home .hero{
 	width: 100%;
 	height: 446px;
-	background: url(/assets/home/hero.jpg) center center no-repeat;
-	background-size: 1600px 446px;
+	background: url(/assets/home/1701.jpeg) center center no-repeat;
+	background-size: cover;
 	overflow: hidden;
 	position: relative;
 	letter-spacing: .09em;
@@ -57,9 +57,9 @@ html.home{
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #074E6F;
+	color: #ED753F;
 	text-transform: uppercase;
-	margin: 85px 0 0 136px;
+	margin: 85px 0 0 111px;
 	position: relative;
 	z-index: 2;
 	letter-spacing: 2px;
@@ -67,7 +67,7 @@ html.home{
 
 #home .hero .small{
 	font-weight: bold;
-	color: #955F5D;
+	color: rgba(255,255,255, .8);
 	font-size: 18px;
 	margin: 10px 0 0 115px;
 	line-height: 30px;
@@ -75,7 +75,7 @@ html.home{
 	z-index: 2;
 	text-transform: uppercase;
 	text-align: center;
-	width: 375px;
+	width: 378px;
 	letter-spacing: 1px;
 }
 
@@ -96,7 +96,7 @@ html.home{
 #home .form-wrap .byline{
 	font-size: 15px;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #ED753F;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -107,7 +107,7 @@ html.home{
 	float: left;
 	font-size: 13px;
 	padding: 8px 0 8px 10px;
-	border: 1px solid #074E6F;
+	border: 1px solid #ED753F;
 	width: 256px;
 	outline: none;
 	letter-spacing: 1px;
@@ -115,7 +115,7 @@ html.home{
 
 #home .form-wrap .submit{
 	width: 143px;
-	background: #074E6F;
+	background: #ED753F;
 	float: left;
 	height: 37px;
 	line-height: 37px;
@@ -263,7 +263,7 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #074E6F;
+	background: #5C5C5C;
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -309,7 +309,7 @@ html.home{
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
+	background: url(/assets/refer/Case.png) 0 0 no-repeat;
 	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
@@ -317,13 +317,13 @@ html.home{
 }
 
 #refer .mammoth .need{
-	color: #FFF;
-	font-size: 38px;
+	color: #5C5C5C;
+	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 102px 0 0 72px;
+	margin: 133px 0 0 194px;
 	display: block;
-	line-height: 56px;
+	line-height: 28px;
 	letter-spacing: 4px;
 	text-align: center;
 	width: 284px;
@@ -340,7 +340,7 @@ html.home{
 
 #refer .share-wrap .why{
 	font-size: 16px;
-	color: #555556;
+	color: #5C5C5C;
 	font-weight: bold;
 	margin-top: 42px;
 }
@@ -350,13 +350,13 @@ html.home{
 	line-height: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #074E6F;
+	color: #ED753F;
 	margin-top: 18px;
 	letter-spacing: .13em;
 }
 
 #refer .share-wrap .subtitle{
-	color: #565656;
+	color: #5C5C5C;
 	font-size: 14px;
 	text-transform: none;
 	margin-top: 15px;
@@ -418,7 +418,7 @@ html.home{
 #refer .prizes .callout{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #ED753F;
 	font-weight: bold;
 	margin: 20px 0 0 0;
 	letter-spacing: 2px;
@@ -466,7 +466,7 @@ html.home{
 #refer .prizes .products li.title{
 	height: 100%;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #ED753F;
 	font-weight: 500;
 	font-size: 14px;
 	float: left;
@@ -487,7 +487,7 @@ html.home{
 
 #refer .prizes .products li.product{
 	height: 100%;
-	color: #074E6F;
+	color: #ED753F;
 	width: 125px;
 	margin-right: 129px;
 	float: left;
@@ -555,14 +555,14 @@ html.home{
 
 #refer .prizes .products li.product:hover .circle{
 	color: #FFF;
-	background: #074E6F;
-	border-color: #074E6F;
+	background: #ED753F;
+	border-color: #ED753F;
 }
 
 #refer .prizes .products li.product .tooltip{
 	height: 254px;
 	width: 190px;
-	border: 4px solid #074E6F;
+	border: 4px solid #ED753F;
 	position: absolute;
 	top: -285px;
 	left: -32px;
@@ -631,8 +631,8 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: url(/assets/home/hero@2x.jpg) center center no-repeat;
-		background-size: 1600px 446px;
+		background: url(/assets/home/1701@2x.jpeg) center center no-repeat;
+		background-size: cover;
 	}
 
 	#home .form-wrap .key{
@@ -646,7 +646,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
 	#refer .mammoth{
-		background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
+		background: url(/assets/refer/Case@2x.png) 0 0 no-repeat;
 		background-size: 610px 394px;
 	}
 
