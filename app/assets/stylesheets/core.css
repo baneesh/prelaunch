@@ -293,7 +293,7 @@ html.home{
 	line-height: 0;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	background: url(/assets/refer/logo_2.png) 0 0 no-repeat;
+	background: url(/assets/refer/logo.png) 0 0 no-repeat;
 	background-size: 106px 19px;
 	height: 19px;
 	width: 106px;
@@ -317,13 +317,13 @@ html.home{
 }
 
 #refer .mammoth .need{
-	color: #FFF;
-	font-size: 38px;
+	color: #5C5C5C;
+	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 102px 0 0 72px;
+	margin: 133px 0 0 194px;
 	display: block;
-	line-height: 56px;
+	line-height: 28px;
 	letter-spacing: 4px;
 	text-align: center;
 	width: 284px;
@@ -418,7 +418,7 @@ html.home{
 #refer .prizes .callout{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #ED753F;
 	font-weight: bold;
 	margin: 20px 0 0 0;
 	letter-spacing: 2px;
@@ -562,7 +562,7 @@ html.home{
 #refer .prizes .products li.product .tooltip{
 	height: 254px;
 	width: 190px;
-	border: 4px solid #074E6F;
+	border: 4px solid #ED753F;
 	position: absolute;
 	top: -285px;
 	left: -32px;
