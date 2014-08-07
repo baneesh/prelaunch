@@ -59,7 +59,7 @@ html.home{
 	font-size: 40px;
 	color: #ED753F;
 	text-transform: uppercase;
-	margin: 85px 0 0 136px;
+	margin: 85px 0 0 111px;
 	position: relative;
 	z-index: 2;
 	letter-spacing: 2px;
@@ -67,7 +67,7 @@ html.home{
 
 #home .hero .small{
 	font-weight: bold;
-	color: #5C5C5C;
+	color: rgba(255,255,255, .8);
 	font-size: 18px;
 	margin: 10px 0 0 115px;
 	line-height: 30px;
