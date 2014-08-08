@@ -61,9 +61,22 @@ Prelaunchr::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
-  config.action_mailer.default_url_options = { :host => 'www.example.com' }
+  config.action_mailer.default_url_options = { :host => 'http://polar-dawn-5937.herokuapp.com/' }
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+
+  # For mailer configs
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :smtp
+config.action_mailer.smtp_settings = {
+  address:              'smtp.gmail.com',
+  port:                 587,
+  domain:               'example.com',
+  user_name:            'karishmajhalani@1701.in',
+  password:             '1701admin',
+  authentication:       'plain',
+  enable_starttls_auto: true  }
 end
