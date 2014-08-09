@@ -13,7 +13,7 @@ ActiveAdmin.register User do
     column :created_at 
     column :updated_at             
 
-    actions :index, :show                
+    default_actions                    
   end  
-  
+ # actions  :show
 end
