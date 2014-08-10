@@ -292,11 +292,12 @@ html.home{
 	font-size: 0;
 	line-height: 0;
 	margin-right: 14px;
+	margin-left: 25px;
 	letter-spacing: 1px;
 	background: url(/assets/refer/logo.png) 0 0 no-repeat;
-	background-size: 106px 19px;
-	height: 19px;
-	width: 106px;
+	background-size: 34px 20px;
+	height: 20px;
+	width: 34px;
 	margin-top: 15px;
 }
 
@@ -642,7 +643,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 	#refer .header .logo{
 		background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;
-		background-size: 106px 19px;
+		background-size: 34px 20px;
 	}
 
 	#refer .mammoth{
