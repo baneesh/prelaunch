@@ -86,11 +86,11 @@ html.home{
 }
 
 #home .form-wrap .key{
-	width: 46px;
-	height: 19px;
+	width: 123px;
+	height: 20px;
 	margin: 0 auto;
 	background: url(/assets/home/key.png) 0 0 no-repeat;
-	background-size: 46px 19px;
+	background-size: 123px 20px;
 }
 
 #home .form-wrap .byline{
@@ -638,7 +638,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 	#home .form-wrap .key{
 		background: url(/assets/home/key@2x.png) 0 0 no-repeat;
-		background-size: 46px 19px;
+		background-size: 123px 20px;
 	}
 
 	#refer .header .logo{
