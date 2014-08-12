@@ -88,7 +88,7 @@ html.home{
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
-	letter-spacing: .09em;
+	letter-spacing: 1px;
 	margin: 0 auto;
 }
 
@@ -100,7 +100,7 @@ html.home{
 	margin: 85px 0 0 111px;
 	position: relative;
 	z-index: 2;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 #home .hero .small{
@@ -137,7 +137,7 @@ html.home{
 	color: #ED753F;
 	text-align: center;
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	margin: 15px 0;
 }
 
@@ -161,7 +161,7 @@ html.home{
 	font-size: 13px;
 	text-transform: uppercase;
 	border: 0;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 #home .form-wrap.ended{
@@ -363,7 +363,7 @@ html.home{
 	margin: 133px 0 0 194px;
 	display: block;
 	line-height: 28px;
-	letter-spacing: 4px;
+	letter-spacing: 1px;
 	text-align: center;
 	width: 284px;
 }
@@ -373,7 +373,7 @@ html.home{
 	width: 400px;
 	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: .13em;
+	letter-spacing: 1px;
 	margin-right: 60px;
 }
 
@@ -391,7 +391,7 @@ html.home{
 	font-weight: bold;
 	color: #ED753F;
 	margin-top: 18px;
-	letter-spacing: .13em;
+	
 }
 
 #refer .share-wrap .subtitle{
@@ -460,7 +460,7 @@ html.home{
 	color: #ED753F;
 	font-weight: bold;
 	margin: 20px 0 0 0;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
@@ -516,12 +516,12 @@ html.home{
 
 #refer .prizes .products li.title .friends{
 	margin-top: 7px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 #refer .prizes .products li.title .rewards{
 	margin-top: 45px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 #refer .prizes .products li.product{
