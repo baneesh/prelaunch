@@ -7,10 +7,8 @@ ActiveAdmin.register User do
  csv do
     column :id
     column('Email') { |user| user.email }
-    column('Referral Code') { |user| user.referral_code }
-    column('Referrals') { |user|  user.referrals.count }
-    column('Created At') { |user| user.created_at }
-    column('Updated At') { |user| user.updated_at }
+    column('Number of Referals') { |user|  user.referrals.count }
+    column('Referal Emails') { |user|  user.referrals.collect{|re| re.email}.join(",")}
   end
 
  index do                            
